@@ -26,5 +26,10 @@ pipeline {
                 echo 'Job completed!'
             }
         }
+        stage('Webhooks'){
+            steps {
+                echo 'Weebhooks are working fine now'
+            }
+        }
     }
 }
