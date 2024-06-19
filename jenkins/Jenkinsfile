@@ -31,5 +31,10 @@ pipeline {
                 echo 'New stage added!'
             }
         }
+        stage('Samlple'){
+            steps{
+                echo 'Sample stage'
+            }
+        }
     }
 }
