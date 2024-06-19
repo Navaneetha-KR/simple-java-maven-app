@@ -26,10 +26,5 @@ pipeline {
                 echo 'Job completed!'
             }
         }
-        stage('Additional stage'){
-            steps {
-                echo 'Addtional stage added for trial'
-            }
-        }
     }
 }
