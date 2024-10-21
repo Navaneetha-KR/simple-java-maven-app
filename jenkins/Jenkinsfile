@@ -26,10 +26,5 @@ pipeline {
                 echo 'Job completed!'
             }
         }
-        stage('Samlple'){
-            steps{
-                echo 'Sample stage 1'
-            }
-        }
     }
 }
