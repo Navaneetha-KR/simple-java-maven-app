@@ -26,11 +26,6 @@ pipeline {
                 echo 'Job completed!'
             }
         }
-        stage('New stage'){
-            steps{
-                echo 'New stage added!'
-            }
-        }
         stage('Samlple'){
             steps{
                 echo 'Sample stage'
